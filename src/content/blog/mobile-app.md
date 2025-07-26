@@ -4,7 +4,7 @@ pubDate: 2024-04-05T05:00:00Z
 description: 'We have rolled out new security updates to keep your data safe and secure. Learn more about our latest security enhancements and how they protect you.'
 author: 'Eleni K'
 image: '/blog/post-02-cover.png'
-tags: ['app', 'announcement']
+tags: ['app', 'announcement', 'security']
 ---
 
 The Foxi mobile app is now available! Manage your tasks and projects on the go with our new mobile app. Stay connected and productive no matter where you are.

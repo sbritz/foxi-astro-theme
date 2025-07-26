@@ -25,17 +25,32 @@ export interface NavAction {
 	size: string
 }
 
+export interface LogoSet {
+	light: Logo
+	dark: Logo
+}
+
 export interface NavData {
-	logo: Logo
+	logo: {
+		light: Logo
+		dark: Logo
+	}
 	navItems: NavItem[]
 	navActions: NavAction[]
 }
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		light: {
+			src: '/logo-light.svg',
+			alt: 'CINEPROG ...macht lust auf ihr kino.',
+			text: ''
+		},
+		dark: {
+			src: '/logo-dark.svg',
+			alt: 'CINEPROG ...macht lust auf ihr kino.',
+			text: ''
+		}
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },

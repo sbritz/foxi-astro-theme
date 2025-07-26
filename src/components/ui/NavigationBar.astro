@@ -40,8 +40,9 @@ const savedNavActions = navActions.map((action) => ({
 		<nav aria-label="main navigation" role="navigation" class="header__nav">
 			<!-- Logo -->
 			<a href="/" class="header__logo">
-				<img src={logo.src} alt={logo.alt} width="48" height="48" />
-				<span>{logo.text}</span>
+				<img src={logo.light.src} alt={logo.light.alt} class="block dark:hidden max-w-60" />
+				<img src={logo.dark.src} alt={logo.dark.alt} class="hidden dark:block max-w-60" />
+				<!-- <span>{logo.text}</span> -->
 			</a>
 
 			<!-- Menu toggle -->
